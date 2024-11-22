@@ -45,3 +45,4 @@ with autograd.record():
     y = 3 * x[0] + 4 * x[0] * x[0] + 2 * x[1] + 2 * x[2] + 2 * x[3]
     y.backward()
 print(x.grad)
+
